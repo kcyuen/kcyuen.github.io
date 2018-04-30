@@ -1,0 +1,194 @@
+
+<!DOCTYPE html>
+<head>
+
+<title>Kevan Yuen</title>
+
+<script src="static/css/jquery-1.js"></script>
+  <link rel="stylesheet" href="static/css/bootstrap.css">
+  <link rel="stylesheet" href="static/css/bootstrap-theme.css">
+
+  <style>
+     .panel-heading .accordion-toggle:before {
+      font-family: 'Glyphicons Halflings';
+      content: "\e114";
+      float: left;
+      color: grey;
+      padding-right: 6px;
+    }
+    .panel-heading .accordion-toggle.collapsed:before {
+      content: "\e080";
+    }
+table, th, td {
+    border: 0px solid black;
+    border-collapse: collapse;
+}
+img:hover{
+  transition-duration: 0.0s;
+  transition-timing-function: linear;
+opacity:0.5;
+}
+  </style>
+
+<style type="text/css">
+</style>
+
+<style>
+@media screen and (max-device-width: 480px){
+  body{
+      -webkit-text-size-adjust: 100%;
+        }
+        }
+p { font-size : 17px; }
+h1 { padding : 0; margin : 0; font-size : 36px; }
+h2 { font-size : 22px; margin : 0; padding : 0; }
+body { padding : 0; font-family: 'Lato', sans-serif; font-size : 17px; background-color : rgb(25, 30, 30); }
+body {
+background: rgb(255,255,255);
+}
+.title { width : 1070px; margin : 20px auto; color : #000; margin-top : 30px; }
+.title a, .title a:visited {color : #0080ff; position : relative;}
+.container { width : 1100px; margin : 10px auto; border-radius: 20px; padding : 15px;  clear:both; }
+#bio { height : 350px; position: relative; float : left; width : 600px; }
+#me { border : 0 solid black; margin-bottom : 30px; border-radius : 20px; }
+#sidebar { margin-right : 50px; border : 0 solid black; float : left; margin-bottom : 0;}
+a { text-decoration : none; }
+a:hover { text-decoration : underline; }
+a, a:visited { color : #0080ff; }
+.publogo { margin-right : 20px; float : left; border : 0;}
+.publication { clear : left; padding-bottom : 3px; }
+.publication p { height : 100px; padding-top : 0px;}
+.publication strong a { color : #000; }
+.publication .links { position : relative; top : 15px }
+.publication .links a { margin-right : 20px; }
+.publication img { border-radius : 5px; }
+.codelogo { margin-right : 50px; float : left; border : 0;}
+.code { padding-bottom : 10px; vertical-align :middle; height : 150px !important; width : 550px;}
+.code .download a { display : block; margin : 0 30px 0 0; float : left;}
+.code strong { display : block; padding-bottom : 10px;}
+.code strong a { color : #000; }
+.code img { border-radius : 5px; }
+.external a { margin : 0 10px; }
+.external a.first { margin : 0 10px 0 0; }
+</style>
+
+</head>
+<body>
+
+<div class="title">
+    <div id="bio">
+        <div style="position:absolute;top:70px;">
+            <p style="line-height:23px;">Kevan Yuen<br>
+            <p style="line-height:23px;">Graduate Student Researcher<br>
+            Laboratory for Intelligent & Safe Automobiles (LISA)<br>
+            University of California San Diego<br>
+            Email: kcyuen [at] eng.ucsd [dot] edu<br></p>
+            Website under Development
+
+
+        </div>
+    </div>
+
+
+<div class="container">
+    <a name="Publications"></a>
+<h2>Publications</h2>
+<br><br>
+<hr style="height:3px;border:none;color:#808080;background-color:#808080;margin-top: -12px;margin-left: 50px;top: 50%;width: 100%;content: "";display: inline-block;"/>
+
+    <div class="publication">
+      <img src="paper-figures/looking-at-hands-autonomous-vehicles/1.jpg" class="publogo" width="150" height="110">
+        <p><strong>Looking at Hands in Autonomous Vehicles: A ConvNet Approach using Part Affinity Fields</strong><br>
+      <strong>K. Yuen</strong> and M. M. Trivedi<br>
+      <em>IEEE Transactions on Intelligent Vehicles (<strong>IV</strong>)</em>, 2018 (Under Review)<br>
+      [<a href="https://arxiv.org/pdf/1804.01176.pdf">pdf</a>]
+    </div>
+    <hr style="height:1px;border:none;color:#e2e2e2;background-color:#e2e2e2;margin-top: -12px;margin-left: 50px;top: 50%;width: 100%;content: "";display: inline-block;"/>
+
+    <div class="publication">
+      <img src="paper-figures/dynamics-of-drivers-gaze/1.jpg" class="publogo" width="150" height="110">
+        <p><strong>Dynamics of Driver's Gaze: Explorations in Behavior Modeling\& Maneuver Prediction</strong><br>
+      S. Martin, S. Vora, <strong>K. Yuen</strong>, and M. M. Trivedi<br>
+      <em>IEEE Transactions on Intelligent Vehicles (<strong>IV</strong>)</em>, 2018<br>
+      [<a href="https://arxiv.org/pdf/1802.00066.pdf">pdf</a>]
+    </div>
+    <br>
+    <hr style="height:1px;border:none;color:#e2e2e2;background-color:#e2e2e2;margin-top: -12px;margin-left: 50px;top: 50%;width: 100%;content: "";display: inline-block;"/>
+
+
+    <div class="publication">
+      <img src="paper-figures/multimodal-full-suround-vehicular-testbed/1.jpg" class="publogo" width="150" height="110">
+        <p><strong>A Multimodal, Full-Surround Vehicular Testbed for Naturalistic Studies and Benchmarking: Design, Calibration and Deployment</strong><br>
+      A. Rangesh, <strong>K. Yuen</strong>, R. K. Satzoda, R. N. Rajaram, P. Gunaratne, M. M. Trivedi<br>
+      [<a href="https://arxiv.org/pdf/1709.07502.pdf">pdf</a>]
+    </div>
+
+    <hr style="height:1px;border:none;color:#e2e2e2;background-color:#e2e2e2;margin-top: -12px;margin-left: 50px;top: 50%;width: 100%;content: "";display: inline-block;"/>
+
+
+    <div class="publication">
+      <img src="paper-figures/occluded-stacked-hourglass/1.jpg" class="publogo" width="150" height="110">
+        <p><strong>An Occluded Stacked Hourglass Approach to Facial Landmark Localization and Occlusion Estimation</strong><br>
+      <strong>K. Yuen</strong> and M. M. Trivedi<br>
+      <em>IEEE Transactions on Intelligent Vehicles (<strong>IV</strong>)</em>, 2017<br>
+      [<a href="https://arxiv.org/pdf/1802.02137.pdf">pdf</a>]
+    </div>
+    <br>
+    <hr style="height:1px;border:none;color:#e2e2e2;background-color:#e2e2e2;margin-top: -12px;margin-left: 50px;top: 50%;width: 100%;content: "";display: inline-block;"/>
+
+    <div class="publication">
+      <img src="paper-figures/pedestrians-and-their-phones/1.png" class="publogo" width="150" height="110">
+        <p><strong>Pedestrians and their Phones - Detecting Phone-based Activities of Pedestrians for Autonomous Vehicles</strong><br>
+      A. Rangesh, E. Ohn-Bar, <strong>K. Yuen</strong>, and M. M. Trivedi<br>
+      <em>IEEE Intelligent Transportation Systems Conference (<strong>ITSC</strong>)</em>, 2016<br>
+      [<a href="http://swiftlet.ucsd.edu/publications/2016/0539.pdf">pdf</a>]
+    </div>
+    <br>
+    <hr style="height:1px;border:none;color:#e2e2e2;background-color:#e2e2e2;margin-top: -12px;margin-left: 50px;top: 50%;width: 100%;content: "";display: inline-block;"/>
+
+    <div class="publication">
+            <img src="paper-figures/looking-at-faces-in-a-vehicle/1.jpg" class="publogo" width="150" height="110">
+            <p><strong>Looking at Faces in a Vehicle: A Deep CNN Based Approach and Evaluation</strong><br>
+      <strong>K. Yuen</strong>, S. Martin, and M. M. Trivedi<br>
+            <em>IEEE International Conference on Intelligent Transportation Systems (<strong>ITSC</strong>)</em>, 2016<br>
+            [<a href="http://swiftlet.ucsd.edu/publications/2016/YuenMartinTrivediITSC2016.pdf">pdf</a>]
+    </div>
+    <br>
+    <br>
+    <br>
+    <hr style="height:1px;border:none;color:#e2e2e2;background-color:#e2e2e2;margin-top: -12px;margin-left: 50px;top: 50%;width: 100%;content: "";display: inline-block;"/>
+
+    <div class="publication">
+      <img src="paper-figures/on-looking-at-faces-in-an-automobile/1.jpg" class="publogo" width="150" height="110">
+        <p><strong>On Looking at Faces in an Automobile: Issues, Algorithms and Evaluation on Naturalistic Driving Dataset</strong><br>
+      <strong>K. Yuen</strong>, S. Martin, and M. M. Trivedi<br>
+      <em>IEEE International Conference on Pattern Recognition (<strong>ICPR</strong>)</em>, 2016<br>
+      [<a href="http://cvrr.ucsd.edu/publications/2016/0411.pdf">pdf</a>]
+    </div>
+    <br>
+    <hr style="height:1px;border:none;color:#e2e2e2;background-color:#e2e2e2;margin-top: -12px;margin-left: 50px;top: 50%;width: 100%;content: "";display: inline-block;"/>
+
+    <div class="publication">
+      <img src="paper-figures/vision-for-intelligent-vehicles-applications-viva/1.jpg" class="publogo" width="150" height="110">
+        <p><strong>Vision for Intelligent Vehicles & Applications (VIVA): Face Detection and Head Pose Challenge</strong><br>
+      S. Martin, <strong>K. Yuen</strong> and M. M. Trivedi<br>
+      <em>Intelligent Vehicles Symposium (<strong>IV</strong>)</em>, 2016<br>
+      [<a href="http://cvrr.ucsd.edu/publications/2016/0411.pdf">pdf</a>]
+    </div>
+    <br>
+    <hr style="height:1px;border:none;color:#e2e2e2;background-color:#e2e2e2;margin-top: -12px;margin-left: 50px;top: 50%;width: 100%;content: "";display: inline-block;"/>
+</div>
+
+
+
+
+<div class="container">
+
+</div>
+
+</body>
+
+</html>
+
+
+
